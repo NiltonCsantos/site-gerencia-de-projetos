@@ -1,0 +1,52 @@
+.services{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0rem;
+  background-color: #807ddd;
+  color: #fff;
+}
+
+@media(max-width:900px){
+  .services{
+    flex-direction: column;
+    gap: 4rem;
+  }
+}
+
+.services section{
+  width: 50%;
+}
+
+@media(max-width:900px){
+  .services section{
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* .services section h3{
+  border: 2px solid;
+} */
+
+.services section button{
+  background: #6a6979;
+  color: #ffffff;
+  width: 160px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+
+
+  font-size: 1.2rem;
+}
+
+.services img{
+  width: 350px;
+}
+
+@media(max-width:360px){
+  .services img{
+    width: 250px;
+  }
+}

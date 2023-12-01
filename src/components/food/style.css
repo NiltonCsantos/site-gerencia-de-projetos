@@ -1,0 +1,56 @@
+.food-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2rem 0rem;
+}
+
+@media(max-width:900px){
+  .food-section{
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.food-section .text {
+  width: 50%;
+}
+
+@media(max-width:900px){
+  .food-section .text{
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.food-section .text .btn {
+  width: 100%;
+  text-align: center;
+  border: none;
+}
+.food-section .text .btn button {
+  margin-top: 2rem;
+  background: #6a6979;
+  color: #ffffff;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1.2rem;
+}
+
+.food-section img {
+  width: 350px;
+  border-radius: 5px;
+}
+
+@media(max-width:900px){
+  .food-section img{
+    width: 300px;
+  }
+}
+@media(max-width:360px){
+  .food-section img{
+    width: 250px;
+  }
+}

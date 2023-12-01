@@ -1,0 +1,30 @@
+.swiper-slide {
+    width: 450px;
+    height: auto;
+    position: relative;
+    height: auto;
+  }
+
+  @media(max-width: 900px){
+    .swiper-slide{
+      width: 300px;
+    }
+   
+  }
+  @media(max-width: 360px){
+    .swiper-slide{
+      width: 250px;
+    }
+   
+  }
+
+ .swiper-slide img {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+  }
+.images .swiper {
+    width: 100%;
+    padding: 2rem 0rem;
+    background-color: none;
+  }
