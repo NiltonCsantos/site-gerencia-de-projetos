@@ -11,6 +11,8 @@ export default function Store() {
         </h3>
 
         <p>Acesse agora os logistas com os melhores preços do mercado!</p>
+
+        <button>Saiba mais</button>
       </div>
    
     </div>
