@@ -1,20 +1,44 @@
-import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { CiMenuFries } from "react-icons/ci";
 
-function Menu() {
+import "./menu.css";
+import { Link } from "react-router-dom";
+
+export default function Menu() {
   return (
-    <Navbar bg="light" variant="light" expand="lg" fixed="top">
-      <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
-        <Nav className="mr-auto">
-          <Nav.Link href="#home">Home</Nav.Link>
-          <Nav.Link href="#link">Link</Nav.Link>
-          <Nav.Link href="#about">Sobre</Nav.Link>
-        </Nav>
-      </Navbar.Collapse>
-    </Navbar>
+    <div className="menu">
+      <CiMenuFries
+        className="btn"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvasTop"
+        aria-controls="offcanvasTop"
+      />
+
+      <div
+        className="offcanvas offcanvas-top"
+        tabindex="-1"
+        id="offcanvasTop"
+        aria-labelledby="offcanvasTopLabel"
+      >
+        <div className="offcanvas-header">
+        
+          <button
+            type="button"
+            className="btn-close"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"
+          ></button>
+        </div>
+        <div className="offcanvas-body">
+          <ul>
+            <li>Início</li>
+            <li>Cultura</li>
+            <li>Alimentos</li>
+            <li>Serviços</li>
+            <li>Logistas</li>
+            <li>Sobre</li>
+          </ul>
+        </div>
+      </div>
+    </div>
   );
 }
-
-export default Menu;

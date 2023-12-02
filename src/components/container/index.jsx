@@ -5,6 +5,7 @@ import Cover from "../cover";
 import "./index.css"
 
 import Main from "../main";
+import { Footer } from "../footer";
 
 export default function Container () {
     return(
@@ -14,6 +15,7 @@ export default function Container () {
             <Header/>
             <Cover/>
             <Main/>
+            <Footer/>
         
         </div>
     )

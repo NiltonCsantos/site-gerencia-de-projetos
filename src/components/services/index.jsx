@@ -12,7 +12,7 @@ export default function Services() {
         </h3>
 
         <p>
-          Acesse agora o nosso site para desfrutar de o melhor da cidade de
+          Acesse agora nossos serviços para desfrutar do melhor da cidade de
           Lagarto feito sob medida para você!
         </p>
 

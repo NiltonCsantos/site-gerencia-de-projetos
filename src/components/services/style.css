@@ -16,6 +16,8 @@
 
 .services section{
   width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 @media(max-width:900px){

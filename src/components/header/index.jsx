@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./index.css";
-
 import Menu from "./menu";
+
 
 export default function Header() {
 
@@ -26,7 +26,7 @@ export default function Header() {
 
   return (
     <header style={{backgroundColor: color}}>
-      <h2>Bem vindo(a) à Lagarto-Se</h2>
+      <h2>Bem vindo(a) <br /> à Lagarto-Se</h2>
 
       <ul>
         <li>Início</li>
@@ -38,9 +38,10 @@ export default function Header() {
         <li>Alimentos</li>
         <li>Serviços</li>
         <li>Logistas</li>
+        <li>Sobre</li>
       </ul>
 
-      {/* <Menu /> */}
+      <Menu/>
     </header>
   );
 }
