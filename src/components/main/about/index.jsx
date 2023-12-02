@@ -1,12 +1,12 @@
 import "./style.css";
 
-import img from "../../assets/images/lagarto.png";
+import img from "../../../assets/images/lagarto.png";
 
 import { MdOutlineLocationOn } from "react-icons/md";
 
 export default function About() {
   return (
-    <section>
+    <section id="about">
       <article>
         <p>
           Você está prestes a embarcar em uma jornada única, repleta de

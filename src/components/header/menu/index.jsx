@@ -20,7 +20,6 @@ export default function Menu() {
         aria-labelledby="offcanvasTopLabel"
       >
         <div className="offcanvas-header">
-        
           <button
             type="button"
             className="btn-close"
@@ -30,12 +29,36 @@ export default function Menu() {
         </div>
         <div className="offcanvas-body">
           <ul>
-            <li>Início</li>
-            <li>Cultura</li>
-            <li>Alimentos</li>
-            <li>Serviços</li>
-            <li>Logistas</li>
-            <li>Sobre</li>
+          <li>
+          <a href="#" target="_self">
+            Início
+          </a>
+        </li>
+        <li>
+          <a href="#culture" target="_self">
+            Cultura
+          </a>
+        </li>
+        <li>
+          <a href="#food" target="_self">
+            Alimentos
+          </a>
+        </li>
+        <li>
+          <a href="#services" target="_self">
+            Serviços{" "}
+          </a>
+        </li>
+        <li>
+          <a href="#store" target="_self">
+            Logistas
+          </a>
+        </li>
+        <li>
+          <a href="#about" target="_self">
+            Sobre
+          </a>
+        </li>
           </ul>
         </div>
       </div>

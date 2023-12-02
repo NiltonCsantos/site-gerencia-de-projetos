@@ -2,8 +2,8 @@ import "./style.css"
 
 export default function Store() {
   return (
-    <div className="store">
-      <div className="text">
+    <div className="store" id="store">
+      <div className="text" >
         <h3>
           Precisando de produtos? <br /> Nossos logistas estão prontos para atendê-lo!
         </h3>

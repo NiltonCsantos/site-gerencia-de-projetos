@@ -10,7 +10,7 @@ export function Footer() {
 
     data-aos="fade-up"
     data-aos-easing="linear"
-     data-aos-duration="2000"
+     data-aos-duration="1500"
     
     >
       <div className="bg-footer"></div>

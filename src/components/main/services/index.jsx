@@ -5,7 +5,7 @@ import services from "../../../assets/images/service.png";
 export default function Services() {
   return (
     <div className="services"
-  
+      id="services"
     >
       <section>
         <h3>

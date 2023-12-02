@@ -1,4 +1,4 @@
-import About from "../about";
+import About from "./about";
 import Food from "./food";
 import Services from "./services";
 import Store from "./store";

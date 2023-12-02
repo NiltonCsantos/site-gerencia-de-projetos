@@ -7,14 +7,13 @@ import p3 from "../../../assets/images/prato3.png";
 import p4 from "../../../assets/images/prato4.png";
 export default function Food() {
   return (
-    <div className="food"
-
-     data-aos="fade-down"
-       data-aos-easing="linear"
-       data-aos-duration="1500"
-    
+    <div
+      className="food"
+      data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500"
     >
-      <section className="food-section">
+      <section className="food-section" id="food">
         <img src={p1} alt="" />
         <div className="text">
           <p>
