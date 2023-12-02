@@ -1,5 +1,3 @@
-import service from "../../assets/images/store.png"
-
 import "./style.css"
 
 export default function Store() {

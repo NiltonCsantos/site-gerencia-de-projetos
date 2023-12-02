@@ -31,7 +31,7 @@ export default function Culture () {
       const autoSlideInterval = setInterval(() => {
         swiperInstance.slideNext(); // Mover para o próximo slide
         clearInterval(autoSlideInterval); // Interromper após o primeiro slide
-      }, 1000); // Intervalo de 3 segundos
+      }, 3000); // Intervalo de 3 segundos
 
       return () => {
         // Limpar o intervalo quando o componente for desmontado
@@ -62,6 +62,10 @@ export default function Culture () {
           onSwiper={setSwiperInstance}
           // spaceBetween={-100} // Ajuste o valor conforme necessário
           className="mySwiper"
+
+          data-aos="fade-down"
+          data-aos-easing="linear"
+          data-aos-duration="1500"
         >
           <SwiperSlide>
             <img src={img1} />

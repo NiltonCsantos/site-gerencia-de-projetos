@@ -1,7 +1,9 @@
 aside{
   background-color: #807ddd;
-  padding: 2rem ;
+  padding: 2rem 0rem;
   color: #fff;
+  position: relative;
+  margin-top: 8rem;
 }
 
 aside footer{
@@ -10,6 +12,14 @@ aside footer{
   gap: 2rem;
   justify-content: center;
   align-items: center;
+  padding: 0rem 2rem;
+}
+
+aside .bg-footer{
+  background: url("../../assets/images/ondulation.png") no-repeat no-repeat;
+  height: 30vh;
+  width: 100%;
+  margin-top: -12rem
 }
 
 aside footer .links{

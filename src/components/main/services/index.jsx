@@ -1,10 +1,12 @@
 import "./style.css";
 
-import services from "../../assets/images/service.png";
+import services from "../../../assets/images/service.png";
 
 export default function Services() {
   return (
-    <div className="services">
+    <div className="services"
+  
+    >
       <section>
         <h3>
           Precisando de assistência? <br /> Nossas equipes estão prontas {" "}

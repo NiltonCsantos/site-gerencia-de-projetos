@@ -6,7 +6,13 @@ import { FaRegCopyright } from "react-icons/fa";
 
 export function Footer() {
   return (
-    <aside>
+    <aside 
+
+    data-aos="fade-up"
+    data-aos-easing="linear"
+     data-aos-duration="2000"
+    
+    >
       <div className="bg-footer"></div>
       <footer>
         <div className="links">

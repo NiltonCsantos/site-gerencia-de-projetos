@@ -1,13 +1,19 @@
 import "./style.css";
 
 import { Fragment } from "react";
-import p1 from "../../assets/images/prato1.png";
-import p2 from "../../assets/images/prato2.png";
-import p3 from "../../assets/images/prato3.png";
-import p4 from "../../assets/images/prato4.png";
+import p1 from "../../../assets/images/prato1.png";
+import p2 from "../../../assets/images/prato2.png";
+import p3 from "../../../assets/images/prato3.png";
+import p4 from "../../../assets/images/prato4.png";
 export default function Food() {
   return (
-    <Fragment>
+    <div className="food"
+
+     data-aos="fade-down"
+       data-aos-easing="linear"
+       data-aos-duration="1500"
+    
+    >
       <section className="food-section">
         <img src={p1} alt="" />
         <div className="text">
@@ -76,6 +82,6 @@ export default function Food() {
           </p>
         </div>
       </section>
-    </Fragment>
+    </div>
   );
 }
