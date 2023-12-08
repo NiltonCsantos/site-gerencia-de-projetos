@@ -1,46 +1,36 @@
-
-.menu{
+.menu {
   display: none;
 }
-.menu>.btn{
+.menu > .btn {
   font-size: 3.5rem;
   color: #ffff;
 }
 
-@media(max-width:600px){
-  .menu{
+@media (max-width: 600px) {
+  .menu {
     display: block;
   }
 }
 
-.menu>.offcanvas{
-  background-color:  #3375d8;
- 
-
+.menu > .offcanvas {
+  background-color: #8a8a41;
 }
 
-.menu>.offcanvas>.offcanvas-body>ul {
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    width: 100%;
-    height: 10px;
-    color: #fff;
-  
+.menu > .offcanvas > .offcanvas-body > ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  width: 100%;
+  height: 10px;
+  color: #fff;
 }
-.menu>.offcanvas>.offcanvas-body>ul>li>a {
-
-    text-decoration: none;
-    color: #ffff;
-  
+.menu > .offcanvas > .offcanvas-body > ul > li > a {
+  text-decoration: none;
+  color: #ffff;
 }
-.menu>.offcanvas>.offcanvas-body>ul>li>span>a {
-
-    text-decoration: none;
-    color: #ffff;
-  
+.menu > .offcanvas > .offcanvas-body > ul > li > span > a {
+  text-decoration: none;
+  color: #ffff;
 }
-

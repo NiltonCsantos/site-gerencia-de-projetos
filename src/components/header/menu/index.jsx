@@ -59,6 +59,9 @@ export default function Menu() {
             Sobre
           </a>
         </li>
+
+        <li><Link to="author">Autores</Link></li>
+
           </ul>
         </div>
       </div>

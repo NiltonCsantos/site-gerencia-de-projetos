@@ -4,14 +4,14 @@ import Services from "./services";
 import Store from "./store";
 import Culture from "./culture";
 
-export default function Main(){
-  return(
+export default function Main() {
+  return (
     <main>
-      <Culture/>
-      <Food/>
-      <Services/>
-      <Store/>
-      <About/>
+      <Culture />
+      <Food />
+      <Services />
+      <Store />
+      <About />
     </main>
-  )
+  );
 }

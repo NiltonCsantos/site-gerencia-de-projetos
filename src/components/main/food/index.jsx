@@ -1,11 +1,14 @@
 import "./style.css";
 
-import { Fragment } from "react";
+import { Link } from "react-router-dom";
 import p1 from "../../../assets/images/prato1.png";
 import p2 from "../../../assets/images/prato2.png";
 import p3 from "../../../assets/images/prato3.png";
 import p4 from "../../../assets/images/prato4.png";
+import { useFood } from "../../../hooks/UseFood";
+
 export default function Food() {
+  const foods = useFood();
   return (
     <div
       className="food"
@@ -13,6 +16,7 @@ export default function Food() {
       data-aos-easing="linear"
       data-aos-duration="1500"
     >
+      {/* {foods.map((food, index)=>{ */}(
       <section className="food-section" id="food">
         <img src={p1} alt="" />
         <div className="text">
@@ -25,12 +29,15 @@ export default function Food() {
             voluptatem id praesentium quis alias nobis laborum rem at tenetur
             harum.
             <div className="btn">
-              <button>saber mais</button>
+              <button>
+              saber mais
+              </button>
             </div>
           </p>
         </div>
       </section>
-      <section className="food-section">
+      ){/* })} */}
+      {/* <section className="food-section">
         <img src={p2} alt="" />
         <div className="text">
           <p>
@@ -43,7 +50,9 @@ export default function Food() {
             facere.
           </p>
           <div className="btn">
-            <button>saber mais</button>
+            <button>
+              <Link to={"/food"}>saber mais</Link>
+            </button>
           </div>
         </div>
       </section>
@@ -59,7 +68,9 @@ export default function Food() {
             voluptatem id praesentium quis alias nobis laborum rem at tenetur
             harum.
             <div className="btn">
-              <button>saber mais</button>
+              <button>
+                <Link to={"/food"}>saber mais</Link>
+              </button>
             </div>
           </p>
         </div>
@@ -76,11 +87,13 @@ export default function Food() {
             voluptatem id praesentium quis alias nobis laborum rem at tenetur
             harum.
             <div className="btn">
-              <button>saber mais</button>
+              <button>
+                <Link to={"/food"}>saber mais</Link>
+              </button>
             </div>
           </p>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

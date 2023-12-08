@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./index.css";
 import Menu from "./menu";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   const [color, setColor] = useState("");
@@ -58,6 +59,8 @@ export default function Header() {
             Sobre
           </a>
         </li>
+
+        <li><Link to="author">Autores</Link></li>
       </ul>
 
       <Menu />

@@ -32,6 +32,16 @@
     font-size: 1.2rem;
   }
 }
+@media (max-width: 400px) {
+  .cover .description h1 {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 400px) {
+  .cover .description h1 {
+    font-size: 0.9rem;
+  }
+}
 
 .cover .description button {
   margin-top: 1rem;
