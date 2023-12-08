@@ -14,9 +14,9 @@ export default function Header() {
     const position = window.scrollY;
     let color = "";
     if (position > 35) {
-      color = "#1e69da";
+      color = "#8a8a41";
     } else {
-      color = " #3375d8";
+      color = " #a7a74e";
     }
     setColor(color);
   };
