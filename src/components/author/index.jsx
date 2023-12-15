@@ -5,7 +5,7 @@ import "./style.css";
 export default function Author() {
   return (
     <div id="main">
-      <Header/>
+      <Header destiny={"/"}/>
       <div className="author">
         <h3>Autores das imagens</h3>
 

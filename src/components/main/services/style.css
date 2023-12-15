@@ -43,6 +43,18 @@
   font-size: 1.2rem;
 }
 
+
+.services section button a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.services section button a:hover{
+  transition: 0.8s;
+  color: #dfdbdb;
+}
+
+
 .services img{
   width: 350px;
 }

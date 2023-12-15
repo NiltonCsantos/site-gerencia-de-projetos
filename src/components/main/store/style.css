@@ -18,3 +18,13 @@
 
   font-size: 1.2rem;
 }
+
+.store .text button a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.store .text button button a:hover{
+  transition: 0.8s;
+  color: #dfdbdb;
+}

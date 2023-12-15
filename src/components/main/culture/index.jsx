@@ -36,7 +36,11 @@ export default function Culture() {
   }, [swiperInstance]);
 
   return (
-    <div className="images" id="culture">
+    <div className="container-caroulsel" style={{padding:"2rem", textAlign:"center"}}>
+
+      <h2>Contemple as belezas de Lagarto</h2>
+
+      <div className="images" id="culture">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
@@ -70,6 +74,7 @@ export default function Culture() {
           <img src={img4} />
         </SwiperSlide>
       </Swiper>
+    </div>
     </div>
   );
 }

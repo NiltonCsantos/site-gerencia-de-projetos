@@ -3,7 +3,7 @@ import "./index.css";
 import Menu from "./menu";
 import { Link } from "react-router-dom";
 
-export default function Header() {
+export default function Header(props) {
   const [color, setColor] = useState("");
 
   useEffect(() => {
@@ -29,38 +29,64 @@ export default function Header() {
       </h2>
 
       <ul>
-        <li>
-          <a href="#" target="_self">
-            Início
-          </a>
-        </li>
-        <li>
-          <a href="#culture" target="_self">
-            Cultura
-          </a>
-        </li>
-        <li>
-          <a href="#food" target="_self">
-            Alimentos
-          </a>
-        </li>
-        <li>
-          <a href="#services" target="_self">
-            Serviços{" "}
-          </a>
-        </li>
-        <li>
-          <a href="#store" target="_self">
-            Logistas
-          </a>
-        </li>
-        <li>
-          <a href="#about" target="_self">
-            Sobre
-          </a>
-        </li>
+        {props.condition == true ? (
+          <>
+            <li>
+              <a href={props.destiny} target="_self">
+                Início
+              </a>
+            </li>
+            <li>
+              <Link to={"/culture"}>
+                Cultura
+              </Link>
+            </li>
+            <li>
+              <a href="#food" target="_self">
+                Alimentos
+              </a>
+            </li>
+            <li>
+              <a href="#services" target="_self">
+                Serviços{" "}
+              </a>
+            </li>
+            <li>
+              <a href="#store" target="_self">
+                Logistas
+              </a>
+            </li>
+            <li>
+              <a href="#about" target="_self">
+                Sobre
+              </a>
+            </li>
+          </>
+        ) : (
+          <>
+            <li>
+              <Link to={props.destiny}>Início</Link>
+            </li>
 
-        <li><Link to="author">Autores</Link></li>
+            <Link to={"/culture"}>
+                Cultura
+              </Link>
+
+            <li>
+              <Link to={"/food"}>Alimentos</Link>
+            </li>
+            <li>
+              <Link to={"/services"}>Serviços</Link>
+            </li>
+            <li>
+              <Link to={"/products"}>Logistas</Link>
+            </li>
+          </>
+        )}
+
+        <li>
+          <Link to="/author">Autores</Link>
+        </li>
       </ul>
 
       <Menu />

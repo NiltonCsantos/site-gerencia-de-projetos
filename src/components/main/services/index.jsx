@@ -1,6 +1,7 @@
 import "./style.css";
 
 import services from "../../../assets/images/service.png";
+import { Link } from "react-router-dom";
 
 export default function Services() {
   return (
@@ -19,7 +20,10 @@ export default function Services() {
         </p>
 
         <button>
+          <Link to={"/services"}>
+
           buscar serviços
+          </Link>
         </button>
       </section>
 

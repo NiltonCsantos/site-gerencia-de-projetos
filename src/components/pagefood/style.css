@@ -1,0 +1,23 @@
+.title {
+  padding: 2rem;
+  text-align: center;
+}
+
+.images{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.images img {
+  width: 550px;
+  background: none;
+  margin-bottom: 3rem;
+}
+
+@media(max-width:550px){
+  .images img{
+    width: 95%;
+  }
+}

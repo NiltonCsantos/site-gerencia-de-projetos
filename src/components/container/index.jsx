@@ -22,7 +22,7 @@ export default function Container () {
 
         <div id="container">
 
-            <Header/>
+            <Header condition={true} destiny={"#"}/>
             <Cover/>
             <Main/>
             <Footer/>

@@ -3,9 +3,13 @@ import { createBrowserRouter } from "react-router-dom";
 import Container from "../components/container";
 
 import Food from "../components/pagefood";
+import Products from "../components/pageproducts"
+import Services from "../components/pageservices"
+import Author from "../components/author";
 
 import { FoodProvider } from "../context/foodcontext";
-import Author from "../components/author";
+import Culture from "../components/pageculture";
+
 
 const IndexRouter = createBrowserRouter([
   {
@@ -24,6 +28,24 @@ const IndexRouter = createBrowserRouter([
     path: "/author",
     element: (
       <Author/>
+    ),
+  },
+  {
+    path: "/products",
+    element: (
+      <Products/>
+    ),
+  },
+  {
+    path: "/services",
+    element: (
+      <Services/>
+    ),
+  },
+  {
+    path: "/culture",
+    element: (
+      <Culture/>
     ),
   },
 ]);

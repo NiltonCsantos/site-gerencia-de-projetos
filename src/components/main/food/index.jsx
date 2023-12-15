@@ -20,18 +20,19 @@ export default function Food() {
       <section className="food-section" id="food">
         <img src={p1} alt="" />
         <div className="text">
+          <h3>Descubra os Sabores Autênticos de Lagarto, Sergipe</h3>
+
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. In dolores,
-            consequuntur quod beatae necessitatibus sed dolore maxime ullam
-            nobis fugit similique possimus dolorum nisi Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Necessitatibus odio asperiores
-            eveniet laudantium error harum deserunt eaque natus. Reprehenderit,
-            voluptatem id praesentium quis alias nobis laborum rem at tenetur
-            harum.
+            mergulhe nos encantos da comida nordestina, onde os aromas
+            envolventes e sabores autênticos aguçam os sentidos. Nos restaurantes e
+            barracas locais, cada prato conta uma história, oferecendo uma
+            autêntica jornada pela cozinha nordestina. Em Lagarto, a comida é
+            uma celebração da identidade, uma expressão de hospitalidade e
+            tradição, convidando todos a saborear a riqueza cultural que se
+            manifesta nos pratos deliciosos desta joia culinária no coração do
+            Nordeste brasileiro.
             <div className="btn">
-              <button>
-              saber mais
-              </button>
+              <button><Link to={"/food"}>saber mais</Link></button>
             </div>
           </p>
         </div>

@@ -1,0 +1,16 @@
+.main .imagesculture{
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.main .text{
+  display: block;
+}
+
+
+
+.main .imagesculture img{
+  width: 300px ;
+}

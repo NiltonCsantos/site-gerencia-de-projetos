@@ -17,7 +17,9 @@ export function Footer() {
       <footer>
         <div className="links">
           <h5>Onde nos encontrar?</h5>
-          <MdOutlineLocationOn className="links-icon" />
+         <a href="https://www.google.com/maps/place/Lagarto+-+SE/@-10.8846565,-37.666157,10.97z/data=!4m6!3m5!1s0x710223b0b78c927:0x80c6f8dc8952c950!8m2!3d-10.9167572!4d-37.6691776!16s%2Fm%2F027j_tc?entry=ttu" target="_blank" rel="external">
+         <MdOutlineLocationOn className="links-icon" style={{textDecoration:"none", color:"#Fff"}} />
+         </a>
           <FaInstagram className="links-icon" />
         </div>
 
