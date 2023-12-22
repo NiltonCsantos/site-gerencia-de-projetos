@@ -36,11 +36,11 @@ import { useEffect } from "react";
 
 export default function Culture() {
 
-  const location = useLocation();
+  // const location = useLocation();
 
-  useEffect(() => {
-    window.scrollTo(0, 0); // Isso faz a página rolar para o topo sempre que a rota mudar
-  }, [location.pathname]); 
+  // useEffect(() => {
+  //   window.scrollTo(0, 0); // Isso faz a página rolar para o topo sempre que a rota mudar
+  // }, [location.pathname]); 
 
   return (
     <div className="main">
