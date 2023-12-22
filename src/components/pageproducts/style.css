@@ -1,4 +1,38 @@
+.main{
+  background: radial-gradient(circle,  #F6AC0E  0%, #FAC156 100%);
+}
+
 .text{
   padding: 2rem;
   text-align: center;
+}
+
+.main .content{
+  min-height: 100vh;
+}
+
+.main .content .images-products a{
+  text-decoration: none;
+  color: #716650;
+}
+
+.main .content .images-products a img{
+  width: 550px;
+}
+.main .content .images-products ol li img{
+  width: 550px;
+}
+
+/* atenção */
+.main .images-products{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0rem;
+
+}
+
+.main .images-products ol li p{
+  max-width: 500px;
 }

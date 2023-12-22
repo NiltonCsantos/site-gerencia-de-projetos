@@ -36,16 +36,18 @@ export default function Header(props) {
                 Início
               </a>
             </li>
+
+            <li>
+              <a href="#about" target="_self">
+                Sobre
+              </a>
+            </li>
             <li>
               <Link to={"/culture"}>
                 Cultura
               </Link>
             </li>
-            <li>
-              <a href="#food" target="_self">
-                Alimentos
-              </a>
-            </li>
+          
             <li>
               <a href="#services" target="_self">
                 Serviços{" "}
@@ -56,11 +58,7 @@ export default function Header(props) {
                 Logistas
               </a>
             </li>
-            <li>
-              <a href="#about" target="_self">
-                Sobre
-              </a>
-            </li>
+          
           </>
         ) : (
           <>
@@ -72,9 +70,6 @@ export default function Header(props) {
                 Cultura
               </Link>
 
-            <li>
-              <Link to={"/food"}>Alimentos</Link>
-            </li>
             <li>
               <Link to={"/services"}>Serviços</Link>
             </li>

@@ -7,11 +7,12 @@ import Culture from "./culture";
 export default function Main() {
   return (
     <main>
+        <About />
       <Culture />
-      <Food />
+      {/* <Food /> */}
       <Services />
       <Store />
-      <About />
+    
     </main>
   );
 }

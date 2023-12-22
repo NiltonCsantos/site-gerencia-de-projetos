@@ -2,13 +2,7 @@ import Header from "../header";
 import "./style.css";
 import { Footer } from "../footer";
 
-import image1 from "../../assets/images/image013.png";
-import image2 from "../../assets/images/image015.png";
-import image3 from "../../assets/images/image017.png";
-import image4 from "../../assets/images/image020.gif";
-import image5 from "../../assets/images/image021.png";
-import image6 from "../../assets/images/image030.gif";
-import image7 from "../../assets/images/image041.png";
+
 
 
 export default function Food() {
@@ -38,13 +32,7 @@ export default function Food() {
       </div>
 
       <div className="images">
-        <img src={image1} alt="" />
-        <img src={image2} alt="" />
-        <img src={image3} alt="" />
-        <img src={image4} alt="" />
-        <img src={image5} alt="" />
-        <img src={image6} alt="" />
-        <img src={image7} alt="" />
+       
       </div>
       <Footer/>
     </div>

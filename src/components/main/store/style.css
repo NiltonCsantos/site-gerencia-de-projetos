@@ -1,5 +1,11 @@
 .store {
   display: flex;
+  min-height:45vh ;
+  padding: 2rem;
+}
+
+.store .content{
+  min-height: 100vh;
 }
 
 .store .text {
