@@ -30,29 +30,25 @@ export default function Menu() {
         <div className="offcanvas-body">
           <ul>
           <li>
-          <a href="#" target="_self">
-            Início
-          </a>
+          <Link to={"/"}>
+          Início
+          </Link>
         </li>
         <li>
-          <a href="#culture" target="_self">
-            Cultura
-          </a>
+          <Link to={"/culture"}>
+          Cultura
+          </Link>
+        </li>
+        
+        <li>
+          <Link to={"/services"}>
+          Serviços
+          </Link>
         </li>
         <li>
-          <a href="#food" target="_self">
-            Alimentos
-          </a>
-        </li>
-        <li>
-          <a href="#services" target="_self">
-            Serviços{" "}
-          </a>
-        </li>
-        <li>
-          <a href="#store" target="_self">
-            Lojistas
-          </a>
+          <Link to={"/products"}>
+          Lojistas
+          </Link>
         </li>
         <li>
           <a href="#about" target="_self">
@@ -60,7 +56,7 @@ export default function Menu() {
           </a>
         </li>
 
-        <li><Link to="author">Autores</Link></li>
+        <li><Link to="/author">Autores</Link></li>
 
           </ul>
         </div>

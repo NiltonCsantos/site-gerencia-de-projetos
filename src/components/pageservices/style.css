@@ -1,5 +1,26 @@
+
+
 .text{
   padding: 2rem;
   text-align: center;
 }
 
+.images-services{
+  display: flex;
+  flex-direction: column;
+  justify-content:center ;
+  align-items: center; 
+}
+
+.images-services img{
+  max-width: 550px;
+}
+
+.images-services p{
+  max-width: 500px;
+}
+
+.images-services a{
+  text-decoration: none;
+  color: #716650;
+}
