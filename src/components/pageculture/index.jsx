@@ -31,11 +31,20 @@ import image27 from "../../assets/images/image051c.jpg";
 import "./style.css";
 import Header from "../header";
 import { Footer } from "../footer";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 
 export default function Culture() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0); // Isso faz a página rolar para o topo sempre que a rota mudar
+  }, [location.pathname]); 
+
   return (
     <div className="main">
-      <Header/>
+      <Header destiny={"/"}  />
       <div className="text">
         <h2>
           Venha festejar conosco! Confira as atividades anuais de Lagarto/SE

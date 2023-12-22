@@ -55,7 +55,7 @@ export default function Header(props) {
             </li>
             <li>
               <a href="#store" target="_self">
-                Logistas
+                Lojistas
               </a>
             </li>
           

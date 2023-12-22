@@ -2,9 +2,48 @@
  display: flex;
  flex-direction: column;
  margin: 0;
+ background: radial-gradient(circle,  #F6AC0E  0%, #FAC156 100%);
 }
+
+#main .congratulations{
+  display:flex ;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#main .congratulations #carousel{
+  width: 750px;
+}
+
+@media(max-width: 750px){
+  #main .congratulations #carousel{
+ 
+    width: 95%;
+  }
+}
+
+
 
 .author{
   text-align: start;
-  padding: 2rem;
+  padding: 3rem 2rem;
+}
+
+.congratulations h2{
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.congratulations .images-congratulations {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.congratulations .images-congratulations img{
+  max-width: 80%;
+  min-height: 280px;
 }

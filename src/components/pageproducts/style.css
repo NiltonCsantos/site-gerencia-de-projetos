@@ -15,12 +15,15 @@
   text-decoration: none;
   color: #716650;
 }
+.main .content .images-products{
+  padding: 0rem 2rem;
+}
 
 .main .content .images-products a img{
-  width: 550px;
+  max-width: 550px;
 }
 .main .content .images-products ol li img{
-  width: 550px;
+  max-width: 550px;
 }
 
 /* atenção */
