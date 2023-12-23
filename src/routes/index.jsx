@@ -5,7 +5,7 @@ import Container from "../components/container";
 import Food from "../components/pagefood";
 import Products from "../components/pageproducts"
 import Services from "../components/pageservices"
-import Author from "../components/author";
+// import Author from "../components/author";
 
 import { FoodProvider } from "../context/foodcontext";
 import Culture from "../components/pageculture";
@@ -24,12 +24,12 @@ const IndexRouter = createBrowserRouter([
       </FoodProvider>
     ),
   },
-  {
-    path: "/author",
-    element: (
-      <Author/>
-    ),
-  },
+  // {
+  //   path: "/author",
+  //   element: (
+  //     <Author/>
+  //   ),
+  // },
   {
     path: "/products",
     element: (
